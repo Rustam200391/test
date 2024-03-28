@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100vh;
+  padding: 20px;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 20px; /* Добавляем внутренний отступ для списка задач */
+  background-color: #f0f0f0; /* Добавляем фоновый цвет только для списка задач */
+}
+
+.task-item {
+  margin-bottom: 8px;
+}
